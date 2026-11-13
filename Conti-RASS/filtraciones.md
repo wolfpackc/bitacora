@@ -1,44 +1,17 @@
-# Filtraciones y colapso
+# Filtraciones
 
-![ContiLeaks message](https://www.rapid7.com/cdn/images/blte1cda4323cf1c54a/683de8bf4c5a0951285e0dbb/image4.png)
+![ContiLeaks](https://www.rapid7.com/cdn/images/blte1cda4323cf1c54a/683de8bf4c5a0951285e0dbb/image4.png)
 
-## El anuncio de apoyo a Rusia
+Esto es lo que más me ha hecho pensar en lo frágil que es todo.
 
-El 25 de febrero de 2022, días después del inicio de la invasión de Ucrania, Conti publicó en su sitio un mensaje de apoyo total al gobierno ruso y amenazó con "medidas de represalia" contra quien atacara infraestructura rusa.
+En febrero de 2022 Conti sale y dice públicamente que apoya a Rusia. A los pocos días alguien de dentro (por lo que se cuenta, un investigador ucraniano que tenía acceso) suelta decenas de miles de mensajes internos y el código fuente. “Glory to Ukraine”.
 
-El mensaje se borró rápidamente, pero el daño ya estaba hecho.
+De repente todo el mundo puede leer cómo se organizaban, cómo negociaban, quién se quejaba de que no cobraba suficiente, cómo elegían objetivos… La marca se quema en semanas.
 
-## ContiLeaks (febrero-marzo 2022)
+Lo que más me llama la atención es que no hizo falta una operación policial enorme. Bastó con que alguien de dentro, que ya no se sentía alineado (por dinero, por política o por las dos cosas), decidiera hablar.
 
-Un investigador de seguridad ucraniano (con acceso a los sistemas internos del grupo) filtró:
+El jefe no pudo imponer el silencio. Y cuando eso pasa en una estructura que depende tanto de la discreción interna, se acaba rápido.
 
-- Más de 60.000 mensajes de chats internos (Jabber/XMPP y Rocket.Chat).
-- Código fuente del ransomware.
-- Manuales y playbooks de afiliados.
-- Información sobre infraestructura, IPs de Cobalt Strike, etc.
+Después la gente se fue a otros grupos (Black Basta, Royal, Karakurt…). El conocimiento y las herramientas siguieron. La marca Conti no.
 
-La cuenta @ContiLeaks en Twitter fue la que publicó los dumps, con el mensaje "Glory to Ukraine".
-
-Los chats revelaron:
-- La estructura casi corporativa del grupo.
-- Negociaciones reales con víctimas.
-- Discusiones internas sobre objetivos, dinero y política.
-- Que algunos miembros eran ucranianos o tenían vínculos con Ucrania.
-
-## Consecuencias
-
-- La marca Conti quedó gravemente dañada.
-- Muchas víctimas dejaron de pagar o negociar.
-- EE.UU. ofreció recompensas de hasta 10 millones de dólares por información sobre los operadores.
-- En mayo de 2022 cerraron el sitio Conti News, los paneles de negociación y gran parte de la infraestructura.
-
-## Sucesores
-
-Los operadores y afiliados no desaparecieron. Se redistribuyeron en nuevos grupos que heredaron técnicas, herramientas y personal:
-
-- **Black Basta** (el sucesor más directo)
-- **Royal** (luego BlackSuit)
-- **Karakurt** (más orientado a extorsión pura de datos)
-- Otros grupos con solapamientos (Akira, BlackByte, etc.)
-
-El código, los playbooks y el conocimiento operativo de Conti siguieron circulando en el ecosistema de ransomware.
+Es impresionante lo profesionales que pueden llegar a ser. Y es igual de impresionante lo rápido que se pueden romper cuando el control real sobre la gente de abajo falla.
