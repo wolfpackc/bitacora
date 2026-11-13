@@ -1,31 +1,29 @@
-# Conti Ransomware
+# Conti — Lo que estoy viendo estos días
 
 ![Conti News](https://krebsonsecurity.com/wp-content/uploads/2021/10/continews.png)
 
-**Conti** fue el ransomware-as-a-service (RaaS) más exitoso y profesionalizado de su época. Vinculado al ecosistema **Wizard Spider** (el mismo detrás de TrickBot y Ryuk), operó entre finales de 2019 y mayo de 2022 como una estructura casi corporativa: roles definidos, salarios fijos para afiliados, playbooks internos, sitio de filtraciones propio y un motor de cifrado extremadamente rápido.
+Llevo poco mirando esto y todavía me cuesta procesarlo.
 
-En su pico llegó a generar ingresos estimados de ~180 millones de dólares al año y afectó a más de 1.000 organizaciones, incluyendo sistemas sanitarios nacionales y gobiernos.
+Conti no era un grupo de cuatro tíos en un sótano. Era una estructura casi empresarial: roles, salarios, playbooks, un sitio de filtraciones con diseño limpio, un motor de cifrado que iba a toda leche. Por un lado te da una especie de admiración técnica y organizativa. Por otro, te da miedo pensar que algo así puede existir y operar durante años con tanta impunidad.
 
-## Contenido de esta carpeta
+## Lo que he ido viendo
 
-| Documento | Contenido |
-|-----------|-----------|
-| [Historia](historia.md) | Origen, evolución desde Ryuk, cronología completa |
-| [Modelo de negocio](modelo-negocio.md) | RaaS, estructura interna, leak site, ingresos |
-| [TTPs y metodología](ttps.md) | Cadena de ataque, herramientas, movimiento lateral, cifrado |
-| [Ataques notables](ataques.md) | HSE Irlanda, Costa Rica y otros casos de alto impacto |
-| [Filtraciones y colapso](filtraciones.md) | ContiLeaks 2022, apoyo a Rusia, disolución y sucesores |
+- [Historia](historia.md) — Cómo nació y por qué duró lo que duró
+- [Modelo de negocio](modelo-negocio.md) — El RaaS, los salarios y las tensiones internas
+- [TTPs](ttps.md) — Cómo se movían realmente
+- [Ataques](ataques.md) — HSE, Costa Rica y el resto
+- [Filtraciones](filtraciones.md) — El momento en que todo se rompió
 
-## Datos clave
+## Lo que me llama la atención
 
-- **Primera observación**: diciembre 2019
-- **Pico de actividad**: 2021
-- **Cierre de la marca**: mayo 2022
-- **Modelo**: Ransomware-as-a-Service con afiliados asalariados
-- **Técnica distintiva**: doble extorsión + cifrado multihilo extremadamente rápido
-- **Grupo vinculado**: Wizard Spider (G0102)
-- **Software MITRE**: Conti (S0575)
+Lo que más me ha chocado es lo frágil que resulta todo cuando el jefe no controla de verdad a la gente que tiene debajo.
 
-![Conti News screenshot](https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/articles/how-conti-ransomware-works-showcase_image-7-a-15763.jpg)
+Un afiliado que se pasa semanas o meses dentro de una red, que ve cómo la víctima paga millones, y que él cobra un salario fijo de unos pocos miles… eso genera resentimiento. Y el resentimiento, en este mundo, se traduce en filtraciones.
 
-*Captura del sitio Conti News (leak site) donde publicaban víctimas que no pagaban.*
+La guerra lo aceleró todo. Cuando Conti salió a apoyar públicamente a Rusia, alguien de dentro (ucraniano, por lo que se cuenta) decidió que ya no valía la pena callarse. Y soltó decenas de miles de mensajes y el código. La marca se quemó en semanas.
+
+El modelo funcionaba muy bien mientras todo el mundo estuviera alineado con el dinero. En cuanto entró la política, las lealtades y el hecho de que no todos cobraban lo mismo por el mismo riesgo, se vino abajo.
+
+Es impresionante lo profesionales que pueden llegar a ser estas estructuras. Y es igual de impresionante lo rápido que se pueden romper.
+
+Sigo leyendo. Aún me queda mucho.
