@@ -1,31 +1,11 @@
-# Ataques notables
+# Ataques
 
-## HSE – Health Service Executive (Irlanda) – Mayo 2021
+Lo que más me ha impresionado (y asustado) son los casos grandes.
 
-El ataque más conocido de Conti. Comprometió el sistema sanitario nacional de Irlanda.
+El de la HSE en Irlanda (mayo 2021) es el que más me ha marcado. Paralizaron buena parte del sistema sanitario de un país entero. Hospitales sin sistemas, retrasos masivos, gente que no podía acceder a sus historiales. Conti llegó a ofrecer el descifrador gratis en un momento, pero seguían teniendo los datos y la amenaza de publicarlos.
 
-- Acceso inicial: phishing (marzo 2021).
-- El ransomware se desplegó el 14 de mayo de 2021.
-- Forzó el cierre de sistemas IT en hospitales de todo el país.
-- Impacto: retrasos masivos en atención, pérdida de acceso a historiales, diagnósticos y citas.
-- Coste estimado de recuperación: decenas o cientos de millones de euros.
-- Conti llegó a ofrecer el descifrador gratis en un momento, pero manteniendo la amenaza de publicar los datos robados (~700 GB).
+Costa Rica en 2022 fue otro nivel. Varias agencias del gobierno caídas, aduanas, impuestos… El país declaró estado de emergencia. Y esto ya era cerca del final de la marca.
 
-## Gobierno de Costa Rica – Abril-Mayo 2022
+Lo que veo es que no eran ataques improvisados. Eran operaciones largas: semanas dentro de la red, exfiltrando datos, moviéndose con calma, y al final un cifrado muy rápido que dejaba todo inutilizable de golpe.
 
-- Ataque a múltiples agencias gubernamentales (al menos 27).
-- Afectó aduanas, impuestos, nóminas y comercio exterior.
-- El presidente declaró **estado de emergencia nacional** el 8 de mayo de 2022.
-- Conti publicó datos y exigió un rescate multimillonario.
-- Fue uno de los últimos grandes ataques antes del cierre de la marca.
-
-## Otros casos relevantes
-
-- Múltiples hospitales y redes sanitarias en EE.UU. y Europa.
-- Empresas de manufactura, logística y servicios financieros.
-- Universal Health Services (UHS) en EE.UU. (2020, relacionado con el ecosistema).
-- Ataques a administraciones públicas y empresas de gran tamaño en varios países.
-
-## Patrón común
-
-La mayoría de los ataques de alto impacto seguían el mismo esquema: acceso inicial silencioso, semanas de movimiento lateral y exfiltración, y luego un cifrado rápido y masivo de la red junto con la amenaza de filtrar los datos.
+Eso es lo que da miedo. No es un virus que entra y cifra en minutos. Es gente que se toma su tiempo, estudia la red y elige el momento.
